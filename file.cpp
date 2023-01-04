@@ -7,7 +7,6 @@
 #include<stack>
 #include<queue>
 #include<map>
-#include<windows.h>
 #include<vector>
 #include<iomanip>
 using namespace std;
@@ -53,8 +52,7 @@ using io::write;
 int main()
 {
     ios::sync_with_stdio(0);
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
-    system("pause");
+    freopen("file.in","r",stdin);
+    freopen("file.out","w",stdout);
     return 0;
 }
